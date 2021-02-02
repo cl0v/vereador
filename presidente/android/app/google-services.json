@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101983060504",
+    "project_id": "camara-vereadores",
+    "storage_bucket": "camara-vereadores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101983060504:android:a4df9c9bdd1e5f450f396d",
+        "android_client_info": {
+          "package_name": "com.example.presidente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101983060504-rpf3vem3lu7brs2h7j6f19qviujh3lr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1owRHeBHlTaBHSv2ifzY0vDFMvLoP9E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101983060504-rpf3vem3lu7brs2h7j6f19qviujh3lr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
