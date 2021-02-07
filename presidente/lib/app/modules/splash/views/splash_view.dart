@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:presidente/app/data/model/vereador_model.dart';
 import 'package:presidente/app/routes/app_pages.dart';
 
-VereadorModel vereadorModel = VereadorModel(name: 'Marcelo Fernandes', isPresident: false);
+VereadorModel vereadorModel = VereadorModel(name: 'Marcelo Fernandes', isPresident: false, );
 
 class SplashView extends StatefulWidget {
   @override
@@ -14,7 +14,7 @@ class _SplashPageState extends State<SplashView> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 2), () => Get.offAndToNamed(Routes.HOME, arguments: {'vereadorModel': vereadorModel}));
+    Future.delayed(Duration(seconds: 0), () => Get.offAndToNamed(Routes.HOME, arguments: {'vereadorModel': vereadorModel}));
   }
 
   @override
